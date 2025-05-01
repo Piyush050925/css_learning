@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: blueviolet;
+    margin: 30px;
+    height: 40px;
+}
+
+.box2 {
+    background-color: burlywood;
+    margin: 20px;
+    height: 40px;
+}
