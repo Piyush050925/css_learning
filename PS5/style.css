@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Yrsa", serif;
+}
+
+li {
+    display: inline;
+    font-size: 2vw;
+    padding: 0 13px;
+}
+
+header {
+    padding: 25px;
+    background-color: rgba(48, 45, 45, 0.951);
+    color: #eee;
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    min-height: 1000px;
+    background-color: bisque;
+}
