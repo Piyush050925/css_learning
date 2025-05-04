@@ -1,0 +1,22 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Yrsa", serif;
+}
+
+.container {
+    background-color: blue;
+    height: 445px;
+}
+
+.box {
+    border: 2px solid black;
+    transform: translate(134px, 56px) rotate(0.5turn);
+    transform-origin: 0;
+    transform: scale(2, 2);
+    /* transform: scaleX(3);
+    transform: scaleY(3); */
+    transform: skew(4deg, 4deg);
+}

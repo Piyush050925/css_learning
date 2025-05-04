@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Yrsa", serif;
+}
+
+.container {
+    height: 60vh;
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: bisque;
+    }
+}
