@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    float: right;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    /* float: right; */
+}
