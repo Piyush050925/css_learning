@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Yrsa", serif;
-    /* background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=background-blur-clean-531880.jpg&fm=jpg'); */
 }
 
 .container {
@@ -15,6 +14,7 @@
 .box {
     border: 2px solid rgb(255, 255, 255);
     color: white;
+    display: inline-block;
     /* transform: translate(134px, 56px) rotate(0.5turn); */
     transform-origin: 0;
     /* transform: scale(2, 2); */
@@ -23,6 +23,10 @@
     /* transform: skew(4deg, 4deg); */
 }
 
-.box:hover {
-    color: black;
+img {
+    width: 455px;
+    /* transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in; */
+    transition: width 3s ease-in; /*shorthand prop */
 }
