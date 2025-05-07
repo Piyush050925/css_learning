@@ -12,11 +12,25 @@ header {
     font-family: "Yrsa", serif;
 }
 
+nav {
+    display: flex;
+}
+
 nav ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     height: 56px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 130px;
+    padding: 0 20px;
 }
 
 nav ul li {
@@ -31,6 +45,55 @@ nav ul li a {
 
 nav ul li a:hover {
     font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 450px;
+    height: 26px;
+    border-radius: 6px;
+    margin: 0 7px 0 70px;
+    padding: 0 10px;
+}
+
+.container {
+    min-height: calc(100vh - 12vh - 56px);
+}
+
+.slider {
+    margin: 20px auto;
+    width: 80vh;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 500px;
+}
+
+.card {
+    max-width: 90vw;
+    margin: auto;
+    font-family: "Yrsa", serif;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-item {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-item img {
+    width: 160px;
 }
 
 footer {
